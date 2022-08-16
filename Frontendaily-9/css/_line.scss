@@ -1,0 +1,42 @@
+.line {
+    width: 40%;
+    background-color: $white;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 0;
+    transition: 0.5s;
+    padding: 30px;
+    margin: 40px; 
+    &:hover{
+        transform: scale(1.1);
+    }
+    .line-left {
+        .profile {
+            position: relative;
+            color: rgb(47, 179, 255);
+            font-size: 30px;
+            border-radius: 50%;
+            
+            background-color: rgb(189, 251, 230);
+            padding: 50px;
+            h1{
+                // position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50% -50%) ;
+            }
+        }
+        .designer{
+            p{
+                font-size: 25px;
+                font-weight: 500;
+            }
+        }
+
+    }
+
+    .line-right{
+        p{
+            color: rgb(156, 156, 156);
+        }
+    }
+}
