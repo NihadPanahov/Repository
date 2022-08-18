@@ -1,0 +1,37 @@
+.all-jobs-btn {
+    margin: 80px 19px;
+
+
+    .btn {
+        a {
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            padding: 25px 52px;
+            box-shadow: 0 1px 5px 0;
+
+            &:hover {
+                transform: scale(1.1);
+
+            }
+        }
+
+        span {
+            font-size: 20px;
+            font-weight: 400;
+            transition: 0.5s;
+
+            &:hover {
+                color: aqua;
+            }
+        }
+
+        i {
+            font-size: 20px;
+
+        }
+    }
+
+}

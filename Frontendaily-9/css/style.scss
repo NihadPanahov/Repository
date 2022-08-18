@@ -1,6 +1,8 @@
 @import "_variables";
 @import "_section1";
 @import "_line";
+@import "_apply";
+@import "_all-jobs-btn";
 
 
 * {
@@ -11,7 +13,7 @@
 }
 
 body{
-    background-color: rgb(210, 215, 246);
+    background-color: rgb(231, 233, 245);
 }
 
 .d-flex {

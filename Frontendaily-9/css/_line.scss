@@ -1,41 +1,61 @@
 .line {
-    width: 40%;
+    width: 65%;
+    height: 70px;
     background-color: $white;
     border-radius: 25px;
     box-shadow: 0 0 15px 0;
     transition: 0.5s;
     padding: 30px;
-    margin: 40px; 
-    &:hover{
+    margin: 40px;
+
+    &:hover {
         transform: scale(1.1);
     }
+
     .line-left {
         .profile {
             position: relative;
             color: rgb(47, 179, 255);
             font-size: 30px;
             border-radius: 50%;
-            
-            background-color: rgb(189, 251, 230);
-            padding: 50px;
-            h1{
-                // position: absolute;
+
+            border: 1.2px solid rgb(47, 179, 255);
+            padding: 30px;
+            padding-right: 50px;
+
+            h1 {
+                padding-left: 20px;
                 top: 50%;
                 left: 50%;
-                transform: translate(-50% -50%) ;
+                transform: translate(-50% -50%);
             }
         }
-        .designer{
-            p{
+
+        .designer {
+            p {
                 font-size: 25px;
                 font-weight: 500;
             }
         }
 
+        // .line-left1 {
+        //     .line-left2 {
+        //         .job {
+        //             span {
+        //                 text-transform: capitalize;
+        //             }
+        //         }
+
+        //     }
+        // }
+
+
     }
 
-    .line-right{
-        p{
+
+
+    .line-right {
+        p {
             color: rgb(156, 156, 156);
         }
     }
